@@ -16,12 +16,12 @@ function App() {
   // Load cart from session storage? (Optional, but good practice)
   // For now, just keep in state as per requirement.
 
-  const handleAddToCart = product => {
-    setCartItems(prevItems => [...prevItems, product]);
+  const handleAddToCart = (product) => {
+    setCartItems((prevItems) => [...prevItems, product]);
     toast.success(`${product.name} added to cart!`, {
-      position: 'top-right',
+      position: "top-right",
       autoClose: 2000,
-      theme: 'colored',
+      theme: "colored",
     });
   };
 
@@ -31,15 +31,15 @@ function App() {
     const removedItem = newCart.splice(index, 1)[0];
     setCartItems(newCart);
     toast.info(`${removedItem.name} removed from cart.`, {
-      position: 'top-right',
+      position: "top-right",
       autoClose: 2000,
     });
   };
 
   const handleClearCart = () => {
     setCartItems([]);
-    toast.success('Checkout successful! Cart cleared.', {
-      position: 'top-center',
+    toast.success("Checkout successful! Cart cleared.", {
+      position: "top-center",
       autoClose: 3000,
     });
     setActiveView('products');
@@ -48,7 +48,7 @@ function App() {
   return (
     <div className="min-h-screen bg-white font-manrope selection:bg-primary/20 selection:text-primary">
       {/* Notifications */}
-      <ToastContainer
+      <ToastContainer 
         position="top-right"
         autoClose={3000}
         hideProgressBar={false}
@@ -70,8 +70,8 @@ function App() {
       <Stats />
 
       {/* Main Feature Area (Toggling Products/Cart) */}
-      <MainSection
-        activeView={activeView}
+      <MainSection 
+        activeView={activeView} 
         setActiveView={setActiveView}
         onAddToCart={handleAddToCart}
         cartItems={cartItems}
