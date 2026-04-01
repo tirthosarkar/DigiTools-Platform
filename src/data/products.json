@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy magically with AI power.",
+    "price": 29,
+    "period": "Monthly",
+    "tag": "HOT OFFER",
+    "tagType": "popular",
+    "features": [
+      "Unlimited AI generations",
+      "SEO writing assistant",
+      "Structured formats"
+    ],
+    "icon": "/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "5000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 49,
+    "period": "One-Time",
+    "tag": "POPULAR",
+    "tagType": "best seller",
+    "features": [
+      "2200+ templates",
+      "Monthly updates",
+      "Full commercial license"
+    ],
+    "icon": "/assets/products/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free high-res photos and videos for your projects.",
+    "price": 19,
+    "period": "Monthly",
+    "tag": "NEW",
+    "tagType": "new",
+    "features": [
+      "10M+ assets",
+      "Commercial use",
+      "No attribution"
+    ],
+    "icon": "/assets/products/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Streamline your workflow with powerful automation tools and custom scripts.",
+    "price": 79,
+    "period": "Yearly",
+    "tag": "LIFETIME",
+    "tagType": "popular",
+    "features": [
+      "100+ automations",
+      "API access",
+      "Custom workflow"
+    ],
+    "icon": "/assets/products/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters with ATS-optimized templates.",
+    "price": 15,
+    "period": "One-Time",
+    "tag": "FREE",
+    "tagType": "new",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "/assets/products/shopping-cart.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Complete platform strategy and content ideas to grow your online presence.",
+    "price": 39,
+    "period": "Monthly",
+    "tag": "BEST SELLER",
+    "tagType": "best seller",
+    "features": [
+      "Daily posts",
+      "Growth checklist",
+      "Monthly dashboard"
+    ],
+    "icon": "/assets/products/social-media.png"
+  }
+]
