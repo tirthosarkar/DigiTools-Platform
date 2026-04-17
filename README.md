@@ -18,7 +18,7 @@ Experience the application here:
 * ** Smart Cart System:** A robust cart logic that allows users to select tools easily. It includes built-in validation to prevent duplicate entries, ensuring a clean shopping experience.
 * ** Dynamic Data Fetching:** Utilizes **Axios** to fetch product information dynamically from JSON sources, making the platform scalable and easy to manage.
 * ** Interactive Notifications:** Real-time feedback using **React Toastify**. Users get instant alerts for successful additions or duplicate item warnings.
-* ** Tab System:** Organized categorization of tools, allowing users to switch between different types of digital resources smoothly.
+* ** Tab System:** Organized categorization of tools, allowing users to switch between different types of digital resources smoothly. b
 * ** Pixel-Perfect Responsive UI:** Fully optimized for all devices—Mobile, Tablet, and Desktop—with a focus on modern aesthetics.
 
 ---
